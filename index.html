@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Struktur OSIS 2024/2025</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 40px;
+      color: #2c3e50;
+    }
+    .tree {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+      position: relative;
+    }
+    .box {
+      display: inline-block;
+      background: #fff;
+      padding: 12px 20px;
+      margin: 10px;
+      border: 2px solid #2c3e50;
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+      position: relative;
+    }
+    .line-down {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      width: 2px;
+      height: 20px;
+      background: #2c3e50;
+      transform: translateX(-50%);
+    }
+    .horizontal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .horizontal::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 10%;
+      right: 10%;
+      height: 2px;
+      background: #2c3e50;
+    }
+    .anggota {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+      margin-top: 20px;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .anggota .box {
+      width: 120px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Struktur OSIS 2024/2025</h1>
+
+  <!-- Ketua dan Wakil Ketua -->
+  <div class="tree">
+    <div class="box">Ketua
+      <div class="line-down"></div>
+    </div>
+    <div class="box">Wakil Ketua
+      <div class="line-down"></div>
+    </div>
+  </div>
+
+  <!-- Sekretaris & Bendahara -->
+  <div class="horizontal">
+    <div class="box">Sekretaris 1</div>
+    <div class="box">Sekretaris 2</div>
+    <div class="box">Bendahara 1</div>
+    <div class="box">Bendahara 2</div>
+  </div>
+
+  <!-- Anggota -->
+  <h2>Anggota</h2>
+  <div class="anggota">
+    <div class="box">Anggota 1</div>
+    <div class="box">Anggota 2</div>
+    <div class="box">Anggota 3</div>
+    <div class="box">Anggota 4</div>
+    <div class="box">Anggota 5</div>
+    <div class="box">Anggota 6</div>
+    <div class="box">Anggota 7</div>
+    <div class="box">Anggota 8</div>
+    <div class="box">Anggota 9</div>
+    <div class="box">Anggota 10</div>
+    <div class="box">Anggota 11</div>
+    <div class="box">Anggota 12</div>
+    <div class="box">Anggota 13</div>
+    <div class="box">Anggota 14</div>
+    <div class="box">Anggota 15</div>
+    <div class="box">Anggota 16</div>
+    <div class="box">Anggota 17</div>
+    <div class="box">Anggota 18</div>
+    <div class="box">Anggota 19</div>
+    <div class="box">Anggota 20</div>
+    <div class="box">Anggota 21</div>
+    <div class="box">Anggota 22</div>
+    <div class="box">Anggota 23</div>
+    <div class="box">Anggota 24</div>
+    <div class="box">Anggota 25</div>
+  </div>
+</body>
+</html>
